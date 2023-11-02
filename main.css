@@ -19,7 +19,7 @@ input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
-  -webkit-appearance:none;
+  -webkit-appearance: none;
 }
 
 .justify_holder{
@@ -39,7 +39,6 @@ input[type="search"]::-webkit-search-results-decoration {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    font-size: 16px;
     line-height: normal;
 }
 
@@ -54,34 +53,40 @@ h2 {
 
 header {
     width: 100%;
-    padding: 20px 20px 5px 20px;
+    padding: 20px;
+}
+
+#left_side, #left_side *, #right_side {
+    user-select: none;
 }
 
 #logo {
     font-size: 36pt;
     font-weight: bold;
     font-variant: small-caps;
-    padding-top: 0 20px;
     display: inline-block;
     border-top: 3px solid var(--main-font-color);
     border-bottom: 3px solid var(--main-font-color);
 }
 
-nav {
-    margin-left: 20px;
+header ul{
+    text-align: center;
+    margin: 0 10px;
 }
-nav ul{text-align: center; font-size: 0; padding: 0; margin-left: 0;}
-nav ul li{display: inline-block;}
-nav li a{
+header ul li {
+    display: inline-block;
+}
+header li a{
     display: block;
     padding: 5px 15px;
     text-decoration: none;
     font-weight: 600;
     font-size: 16pt;
 }
-nav li a:hover {text-decoration: underline;}
+header li a:hover {
+    text-decoration: underline;
+}
 
-/*!!!!!!!!!!!! HIDE OVERFLOW FROM INPUT !!!!!!!!!!!!! */
 #search {
     background: var(--search-color);
     padding: 16px;
@@ -90,10 +95,15 @@ nav li a:hover {text-decoration: underline;}
 }
 
 #search input {
+    display: block;
+    width: 100%;
     background: transparent;
     color: #fff;
-    padding-left: 40px;
-    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' class='bi bi-search' fill='%23A1C349' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 5px center;
+    padding-left: 30px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' class='bi bi-search' fill='%23A1C349' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 0 center;
+}
+#search input::selection {
+    background: var(--main-font-color);
 }
 #search input::placeholder {
     color: var(--main-bg-color);
@@ -101,11 +111,11 @@ nav li a:hover {text-decoration: underline;}
 }
 #search input:focus {
     outline: none;
-    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' class='bi bi-search' fill='%23ffffff' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 5px center;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' class='bi bi-search' fill='%23ffffff' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 0 center;
 }
 
 #bucket span {
-    font-size: 52px;
+    font-size: 48px;
     color: var(--main-font-color);
 }
 
@@ -118,6 +128,10 @@ nav li a:hover {text-decoration: underline;}
 
 #left_motto {
     display: table-cell;
+}
+
+#left_motto *::selection {
+    background: var(--main-bg-color);
 }
 
 #motto p {
@@ -138,6 +152,7 @@ nav li a:hover {text-decoration: underline;}
     height: 450px;
     width: auto;
     padding-left: 20px;
+    user-select: none;
 }
 
 #why {
@@ -148,10 +163,14 @@ nav li a:hover {text-decoration: underline;}
     padding: 25px 0;
 }
 
+#why *::selection {
+    background: #fff;
+}
+
 #grid {
     padding: 25px 0;
     display: grid;
-    grid-template-columns: minmax(auto, 50%) minmax(auto, 50%);
+    grid-template-columns: 50% 50%;
 }
 
 #grid div {
@@ -168,6 +187,7 @@ footer {
     max-width: 500px;
     margin: 0 auto;
     padding-bottom: 30px;
+    user-select: none;
 }
 
 footer p {
@@ -185,4 +205,65 @@ footer p {
     color: var(--main-font-color);
     font-size: 48px;
     margin: 0 10px;
+}
+
+@media only screen and (max-width: 1265px) {
+    #motto {
+        padding-left: 100px;
+    }
+    #left_motto h2, #why h2 {
+        font-size: 26pt;
+    }
+    #motto img {
+        height: 400px;
+    }
+    #grid h4 {
+        font-size: 16pt;
+    }
+    #why {
+        padding: 30px 100px 0 100px;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    #motto {
+        padding-left: 70px;
+    }
+    #left_motto h2, #why h2 {
+        font-size: 24pt;
+    }
+    #motto img {
+        height: 350px;
+    }
+    #grid {
+        grid-template-columns: 100%;
+    }
+}
+@media only screen and (max-width: 945px) {
+    #motto {
+        display: block;
+        padding: 0;
+    }
+    #left_motto {
+        width: 100%;
+        padding: 10px 20px;
+    }
+    #left_motto h2, #left_motto p{
+        padding-top: 10px;
+    }
+    #motto img {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    #icons span {
+        font-size: 32px;
+    }
+    #why {
+        padding: 20px 50px;
+    }
+}
+@media only screen and (max-width: 905px) {
+
 }
