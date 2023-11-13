@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE produkty SYSTEM "produkty.xsd">
+<produkty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="produkty.xsd">
+  <produkt>
+    <id>001</id>
+    <jmeno>Zimní bunda Avalanche</jmeno>
+    <popis>Zimní bunda Avalanche je ideální pro udržení tepla během nejchladnějších měsíců. Díky stylovému designu a příjemnému zateplení budete připraveni vypořádat se se zimním chladem. Nedovolte, aby vás chladné počasí zdržovalo - tato bunda vás ochrání.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Bunda</podkategorie>
+    <cena>3499</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tato bunda je moje záchrana v zimních měsících! Je teplá, stylová a stojí za každou korunu!</text>
+        <body>5/5</body>
+        <jmeno>Jan Novák</jmeno>
+        <datum>2023-11-03</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>002</id>
+    <jmeno>Triko Summer Breeze</jmeno>
+    <popis>Tričko Summer Breeze je dokonalým doplňkem vašeho šatníku pro teplé počasí. S tímto stylovým a prodyšným tričkem zůstanete v horkých letních dnech v pohodě a komfortu. Je nezbytným doplňkem pro vaše letní dobrodružství!</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Trika</podkategorie>
+    <cena>599</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tohle tričko miluju! Je tak pohodlné a design je vskutku úžasný.</text>
+        <body>5/5</body>
+        <jmeno>Markéta Svobodová</jmeno>
+        <datum>2023-10-30</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>003</id>
+    <jmeno>Batoh Explorer</jmeno>
+    <popis>Batoh Explorer je spolehlivým společníkem na výlety do přírody. Ať už se vydáte na túru, kempování nebo cestování, tento batoh má dostatek úložného prostoru a je vyroben tak, aby odolal přírodním vlivům. Připravte se na další dobrodružství s tímto robustním a všestranným batohem.</popis>
+    <kategorie>Děti</kategorie>
+    <podkategorie>Batohy</podkategorie>
+    <cena>899</cena>
+    <velikosti>
+      <velikost>N/A</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tento batoh je ideální pro venkovní dobrodružství mého dítěte. Je pevný a prostorný a muj kluk si ho zamiloval!</text>
+        <body>4/5</body>
+        <jmeno>Petr Král</jmeno>
+        <datum>2023-11-01</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>004</id>
+    <jmeno>Džíny Classic</jmeno>
+    <popis>Představujeme džíny Classic - dokonalou kombinaci stylu a pohodlí. Tyto džíny jsou nadčasovým doplňkem vašeho šatníku. Díky klasickému střihu a odolné džínové tkanině budete vypadat skvěle a cítit se sebevědomě po celý den.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Kalhoty</podkategorie>
+    <cena>1399</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto džíny jsou klasikou. Dobře sedí, skvěle vypadají a jsou velmi pohodlné. Vřele doporučujeme!</text>
+        <body>5/5</body>
+        <jmeno>Alan Novotný</jmeno>
+        <datum>2023-10-28</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>005</id>
+    <jmeno>Summer Vibes Swim Shorts</jmeno>
+    <popis>Dive into summer with our Summer Vibes Swim Shorts. These colorful and comfortable swim shorts are perfect for beach days and pool parties. Enjoy the sun, sand, and waves in style with these fun and trendy shorts.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Plavky</podkategorie>
+    <cena>690</cena>
+    <velikosti>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+      <velikost>XL</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto plavecké šortky jsou skvělé! Perfektně sedí a zářivé barvy dodají mému plážovému vzhledu šmrnc.</text>
+        <body>4/5</body>
+        <jmeno>Tomáš Pospíšil</jmeno>
+        <datum>2023-10-25</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>006</id>
+    <jmeno>Svetr Pohoda</jmeno>
+    <popis>Zůstaňte stylově v teple s naším pleteným svetrem. Tento měkký a všestranný svetr je ideální pro chladné dny a večery. Ať už se chystáte na neformální vzhled, nebo se chcete obléknout, tento svetr vám zajistí pohodlí a módní styl.</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Svetry</podkategorie>
+    <cena>1099</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tento svetr naprosto miluji! Je tak měkký a příjemný. Perfektní pro podzimní a zimní období.</text>
+        <body>5/5</body>
+        <jmeno>Jana Vlčková</jmeno>
+        <datum>2023-10-22</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>007</id>
+    <jmeno>Běžecké boty Zátopek</jmeno>
+    <popis>Zlepšete svou kondici s naší běžeckou obuví Zátopek. Tato obuv je navržena pro pohodlí a výkon a je ideální pro běh, jogging a aktivní život. Buďte v pohybu se stylem a podporou!</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Boty</podkategorie>
+    <cena>1499</cena>
+    <velikosti>
+      <velikost>8</velikost>
+      <velikost>9</velikost>
+      <velikost>10</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto boty jsou ideální pro mé každodenní běhání. Poskytují skvělé pohodlí a oporu.</text>
+        <body>4/5</body>
+        <jmeno>Michal Hruška</jmeno>
+        <datum>2023-10-20</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>008</id>
+    <jmeno>Večerní šaty Kelly</jmeno>
+    <popis>Vylepšete svůj večer s našimi elegantními večerními šaty. Tyto elegantní a sofistikované šaty jsou ideální pro zvláštní příležitosti, formální události a okouzlující večery. Udělejte dojem a otočte se v těchto krásných šatech.</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Šaty</podkategorie>
+    <cena>1899</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto šaty jsou úžasné! Na akci, které jsem se zúčastnila, jsem se cítila jako hvězda. Jsou pohodlné a elegantní.</text>
+        <body>5/5</body>
+        <jmeno>Sofia Jeřábková</jmeno>
+        <datum>2023-10-18</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>009</id>
+    <jmeno>Legíny Kufu</jmeno>
+    <popis>Připravte se na překonání svých fitness cílů s našimi aktivními sportovními legínami. Tyto vysoce výkonné legíny nabízejí dokonalou kombinaci pohodlí a flexibility pro vaše tréninky. Zůstaňte aktivní a styloví s těmito nezbytnými legínami!</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Legíny</podkategorie>
+    <cena>999</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto legíny mění pravidla hry! Jsou pohodlné, stylové a perfektní na cvičení.</text>
+        <body>5/5</body>
+        <jmeno>Tereza Růžičková</jmeno>
+        <datum>2023-10-16</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>010</id>
+    <jmeno>Klasická kožená peněženka</jmeno>
+    <popis>Vylepšete svůj styl s naší klasickou koženou peněženkou. Tato peněženka je vyrobena z pravé kůže a je funkční i stylová. Nabízí dostatek prostoru pro vaše karty, hotovost a další věci. Pozvedněte své každodenní nošení s tímto nadčasovým doplňkem.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Doplňky</podkategorie>
+    <cena>1199</cena>
+    <velikosti>
+      <velikost>N/A</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tato peněženka je elegantní i praktická. Líbí se mi kvalita kůže a design.</text>
+        <body>4/5</body>
+        <jmeno>Martin Procházka</jmeno>
+        <datum>2023-10-14</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>011</id>
+    <jmeno>Flanelová košile Prezident</jmeno>
+    <popis>Zůstaňte v teple a stylově s naší útulnou flanelovou košilí. Tato košile je ideální pro podzimní a zimní období a její měkká, prodyšná tkanina zajišťuje pohodlí po celý den. Přidejte do svého šatníku nádech klasické módy s touto útulnou flanelovou košilí.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Košile</podkategorie>
+    <cena>1099</cena>
+    <velikosti>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+      <velikost>XL</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Líbí se mi vzhled i komfort této flanelové košile. Je ideální na chladnější měsíce a skvěle se hodí k mým džínům.</text>
+        <body>5/5</body>
+        <jmeno>Radek Pokorný</jmeno>
+        <datum>2023-10-12</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>012</id>
+    <jmeno>Sluneční brýle Soumrak</jmeno>
+    <popis>Vylepšete svůj styl s našimi slunečními brýlemi Soumrak. Tyto nadčasové brýle poskytují ochranu před UV zářením a zároveň jsou módním doplňkem. Ať už se chystáte na pláž nebo na procházku po městě, tyto brýle doplní váš vzhled.</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Dopňky</podkategorie>
+    <cena>599</cena>
+    <velikosti>
+      <velikost>N/A</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto letní sluneční brýle jsou fantastické. Poskytují skvělou ochranu před sluncem a vypadají neuvěřitelně stylově!</text>
+        <body>4/5</body>
+        <jmeno>Kristína Soukupová</jmeno>
+        <datum>2023-10-10</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>013</id>
+    <jmeno>Batoh Scavenger</jmeno>
+    <popis>Pro každodenní dobrodružství ve městě i mimo něj je právě batoh Scavenger vaším ideálním společníkem. Tento stylový a funkční batoh nabízí dostatek úložného prostoru, několik přihrádek a odolnost pro váš životní styl na cestách. Prozkoumejte městskou džungli ve velkém stylu!</popis>
+    <kategorie>Unisex</kategorie>
+    <podkategorie>Batohy</podkategorie>
+    <cena>1399</cena>
+    <velikosti>
+      <velikost>N/A</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tento batoh mění pravidla hry při každodenním dojíždění. Je stylový, prostorný a udržuje vše uspořádané.</text>
+        <body>5/5</body>
+        <jmeno>Jan Deber</jmeno>
+        <datum>2023-10-08</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>014</id>
+    <jmeno>Letní šortky Skylander</jmeno>
+    <popis>Přijměte letní náladu s našimi šortkami Skylander. Tyto pohodlné a barevné šortky jsou ideální pro vaše výlety na pláž, pikniky a volné dny. Užívejte si slunce a vnímejte letní atmosféru s těmito veselými šortkami!</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Šortky</podkategorie>
+    <cena>599</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto šortky jsou ideální pro bezstarostné léto. Dobře sedí a barvy jsou fantastické.</text>
+        <body>4/5</body>
+        <jmeno>Jana Šebková</jmeno>
+        <datum>2023-10-06</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>015</id>
+    <jmeno>Kožený pásek Classic</jmeno>
+    <popis>Dodejte svému oblečení nádech sofistikovanosti s naším klasickým koženým páskem. Tento nadčasový doplněk je vyroben z pravé kůže a nabízí styl i funkčnost. Vylepšete svůj vzhled tímto všestranným a odolným opaskem.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Doplňky</podkategorie>
+    <cena>899</cena>
+    <velikosti>
+      <velikost>32</velikost>
+      <velikost>34</velikost>
+      <velikost>36</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tento kožený opasek je vynikající. Je odolný a vypadá skvěle k formálnímu i neformálnímu oblečení.</text>
+        <body>5/5</body>
+        <jmeno>Eliška Janků</jmeno>
+        <datum>2023-10-04</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>016</id>
+    <jmeno>Letní šaty Floral</jmeno>
+    <popis>Vychutnejte si vánek v našich letních šatech s květinovým potiskem. Tyto krásné a lehké letní šaty jsou ideální pro vaše letní výlety. Květinový vzor mu dodává nádech elegance, takže se stane nezbytným doplňkem vašeho šatníku pro teplé počasí.</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Šaty</podkategorie>
+    <cena>1200</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto šaty jsou nádherné. Jsou pohodlné a jejich květinový vzor je okouzlující. Perfektní pro letní dny!</text>
+        <body>4/5</body>
+        <jmeno>Lenka Lásková</jmeno>
+        <datum>2023-10-02</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>017</id>
+    <jmeno>Outdoorová čapka Scout</jmeno>
+    <popis>Připravte se na výpravy do přírody s naší čepicí Scout. Tento odolný a všestranný klobouk poskytuje ochranu před sluncem a styl. Ať už se vydáte na pěší túru, rybaření nebo průzkum, tento klobouk je vaším dokonalým společníkem do přírody.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Pokrývky hlavy</podkategorie>
+    <cena>599</cena>
+    <velikosti>
+      <velikost>N/A</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tento dobrodružný klobouk je fantastický. Je robustní, pohodlný a poskytuje skvělou ochranu před sluncem během túr a outdoorových aktivit.</text>
+        <body>5/5</body>
+        <jmeno>Adam Kolesár</jmeno>
+        <datum>2023-09-30</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>018</id>
+    <jmeno>Džíska Classic</jmeno>
+    <popis>Vylepšete svůj ležérní vzhled s naší klasickou džínovou bundou. Tento nadčasový kousek nesmí chybět v žádném šatníku. Díky odolné džínovině a klasickému designu je univerzální volbou pro různé příležitosti.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Bundy</podkategorie>
+    <cena>1299</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tato džínová bunda je prostě klasika. Je stylová, skvěle padne a doplní různé outfity.</text>
+        <body>5/5</body>
+        <jmeno>Pavel Malý</jmeno>
+        <datum>2023-09-28</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>019</id>
+    <jmeno>Bikiny Summer Splash</jmeno>
+    <popis>Ponořte se do léta s našimi plavkami Summer Splash. Tyto módní a barevné bikiny jsou určeny pro zábavu na slunci. Ať už vyrazíte na pláž nebo k bazénu, s těmito módními plavkami uděláte parádu.</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Plavky</podkategorie>
+    <cena>899</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto bikiny jsou fantastické. Jsou pohodlné a zářivé barvy jsou ideální pro den na pláži.</text>
+        <body>4/5</body>
+        <jmeno>Barbora Konečná</jmeno>
+        <datum>2023-09-26</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>020</id>
+    <jmeno>Turistické boty Explorer</jmeno>
+    <popis>Vydejte se za outdoorovými dobrodružstvími s turistickými botami Explorer. Tyto robustní a odolné boty jsou navrženy tak, aby zvládly náročné terény. Zůstaňte při svých túrách a průzkumech v pohodlí a s dobrou oporou.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Boty</podkategorie>
+    <cena>1599</cena>
+    <velikosti>
+      <velikost>8</velikost>
+      <velikost>9</velikost>
+      <velikost>10</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto turistické boty jsou úžasné. Poskytují vynikající oporu a jsou ideální na náročné stezky.</text>
+        <body>5/5</body>
+        <jmeno>Marek Štěpánek</jmeno>
+        <datum>2023-09-24</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>021</id>
+    <jmeno>Elegantní halenka</jmeno>
+    <popis>Vylepšete svůj profesionální vzhled díky naší elegantní  halence. Tato elegantní a stylová halenka se skvěle hodí na pracoviště i na slavnostní příležitosti. S tímto všestranným kouskem budete v pohodlí a sebevědomí.</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Blůzky</podkategorie>
+    <cena>1299</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tato kancelářská halenka je ideální pro profesionální prostředí. Je pohodlná, dobře padnoucí a skvěle vypadá.</text>
+        <body>4/5</body>
+        <jmeno>Lucie Matějová</jmeno>
+        <datum>2023-09-22</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>022</id>
+    <jmeno>Zavazadlová taška Skyreacher</jmeno>
+    <popis>Připravte se na další cestu s naší novou elegantní taškou. Tato odolná a prostorná taška je určena pro cestovatele a objevitele. Nabízí dostatek úložného prostoru a je připravena vás doprovázet na vašich dobrodružstvích.</popis>
+    <kategorie>Unisex</kategorie>
+    <podkategorie>Doplňky</podkategorie>
+    <cena>1499</cena>
+    <velikosti>
+      <velikost>N/A</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tato taška je fantastická. Je prostorná, pevná a perfektní pro mé cesty.</text>
+        <body>5/5</body>
+        <jmeno>Jan Marek</jmeno>
+        <datum>2023-09-20</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>023</id>
+    <jmeno>Večerní šaty Dawn</jmeno>
+    <popis>Vyjádřete se na své výjimečné události pomocí našich okouzlujících večerních šatů. Tyto elegantní a úchvatné šaty se skvěle hodí na slavnostní příležitosti, galavečery a večírky. Buďte středem pozornosti a zanechte v těchto úžasných šatech trvalý dojem.</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Šaty</podkategorie>
+    <cena>2099</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto večerní šaty jsou naprosto úžasné. Na galavečeru jsem se v nich cítila jako královna.</text>
+        <body>5/5</body>
+        <jmeno>Andrea Svobodová</jmeno>
+        <datum>2023-09-18</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>024</id>
+    <jmeno>Stylový kožený batoh</jmeno>
+    <popis>Vylepšete svůj styl s naším stylovým koženým batohem. Tento elegantní a funkční batoh je ideální pro každodenní použití, ať už do práce nebo na volný čas. Pravá kůže a moderní design z něj dělají módní volbu.</popis>
+    <kategorie>Unisex</kategorie>
+    <podkategorie>Batohy</podkategorie>
+    <cena>1599</cena>
+    <velikosti>
+      <velikost>N/A</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tento kožený batoh mění pravidla hry. Je stylový, prostorný a perfektně se do něj vejde můj notebook.</text>
+        <body>4/5</body>
+        <jmeno>Petr Němec</jmeno>
+        <datum>2023-09-16</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>025</id>
+    <jmeno>Letní šaty Bohéma</jmeno>
+    <popis>Vydejte se na cestu boho ducha v našich šatech Boho Chic Maxi Dress. Tyto splývavé a zářivé šaty jsou ideální na festivaly, výlety na pláž i neformální setkání. Objevte volný styl s těmito šaty inspirovanými bohémským stylem.</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Šaty</podkategorie>
+    <cena>1295</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Prostě nádherné!</text>
+        <body>5/5</body>
+        <jmeno>Monika Veselá</jmeno>
+        <datum>2023-09-16</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>026</id>
+    <jmeno>Ležérní šortky Cargo</jmeno>
+    <popis>S našimi šortkami budete v pohodlí a ležérním stylu. Tyto všestranné šortky jsou ideální pro venkovní aktivity i každodenní nošení. Díky velkému množství kapes a volnému střihu nabízejí styl i praktičnost.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Šortky</podkategorie>
+    <cena>980</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+     <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto šortky jsou ideální na venkovní dobrodružství. Jsou pohodlné, odolné a mají dostatek úložného prostoru.</text>
+        <body>4/5</body>
+        <jmeno>Jiří Kříž</jmeno>
+        <datum>2023-09-14</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>027</id>
+    <jmeno>Kimono Boho</jmeno>
+    <popis>Přidejte do svého šatníku nádech bohémského šarmu s naším kimonem s boho vzorem. Toto lehké a stylové kimono je ideální pro vrstvení a přidání barevného nádechu do vašich outfitů. Přijměte trend boho s tímto všestranným kouskem.</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Šaty</podkategorie>
+    <cena>890</cena>
+    <velikosti>
+      <velikost>N/A</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Toto kimono je krásným doplňkem mého šatníku. Je univerzální a mým outfitům dodává jedinečný nádech.</text>
+        <body>5/5</body>
+        <jmeno>Veronika Pospíchalová</jmeno>
+        <datum>2023-09-12</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>028</id>
+    <jmeno>Robustní venkovní batoh</jmeno>
+    <popis>Připravte se na venkovní dobrodružství s naší odolnou outdoorovou batohovou soupravou. Tento odolný a funkční batoh je určen pro turisty, táborníky a průzkumníky. Nabízí dostatek úložného prostoru, pohodlí a odolnost pro vaše outdoorové aktivity.</popis>
+    <kategorie>Unisex</kategorie>
+    <podkategorie>Batohy</podkategorie>
+    <cena>1299</cena>
+    <velikosti>
+      <velikost>N/A</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tento outdoorový batoh je ideální pro mé pěší výlety. Je robustní, pohodlný a bezpečně pojme veškerou mou výbavu.</text>
+        <body>5/5</body>
+        <jmeno>Tomáš Havel</jmeno>
+        <datum>2023-09-10</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>029</id>
+    <jmeno>Pohodlné běžecké kalhoty Lounge</jmeno>
+    <popis>Relaxujte stylově v našich pohodlných teplácích Comfy Lounge Joggers. Tyto pohodlné a všestranné běžecké kalhoty jsou ideální pro lenošení doma nebo běhání po úřadech. Užijte si maximální pohodlí a trendy vzhled s těmito nezbytnými lounge kalhotami.</popis>
+    <kategorie>Muži</kategorie>
+    <podkategorie>Kalhoty</podkategorie>
+    <cena>979</cena>
+    <velikosti>
+      <velikost>S</velikost>
+      <velikost>M</velikost>
+      <velikost>L</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto běžecké kalhoty jsou neuvěřitelně pohodlné a všestranné. Prakticky v nich doma žiju!</text>
+        <body>4/5</body>
+        <jmeno>Oliver Tomáš</jmeno>
+        <datum>2023-09-08</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+  <produkt>
+    <id>030</id>
+    <jmeno>Elegantní lodičky na vysokém podpatku</jmeno>
+    <popis>Vylepšete svůj styl s našimi elegantními lodičkami na vysokém podpatku. Tyto elegantní a všestranné podpatky jsou ideální pro formální události a zvláštní příležitosti. Nabízejí styl i pohodlí a umožní vám sebevědomě protančit celou noc.</popis>
+    <kategorie>Ženy</kategorie>
+    <podkategorie>Boty</podkategorie>
+    <cena>2499</cena>
+    <velikosti>
+      <velikost>6</velikost>
+      <velikost>7</velikost>
+      <velikost>8</velikost>
+    </velikosti>
+    <obrazek_hlavni>https://picsum.photos/1000</obrazek_hlavni>
+    <obrazek_druhy>https://picsum.photos/1000</obrazek_druhy>
+    <galerie>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+      <obrazek>https://picsum.photos/200</obrazek>
+    </galerie>
+    <hodnoceni>
+      <recenze>
+        <text>Tyto lodičky na vysokém podpatku jsou nádherné a překvapivě pohodlné. Na akci jsem dostala mnoho komplimentů.</text>
+        <body>5/5</body>
+        <jmeno>Jiřina Kocourková</jmeno>
+        <datum>2023-09-06</datum>
+      </recenze>
+    </hodnoceni>
+  </produkt>
+</produkty>
