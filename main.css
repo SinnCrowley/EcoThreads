@@ -51,7 +51,7 @@ b {
 }
 
 h2 {
-    font-size: 22pt;
+    font-size: 24pt;
     font-weight: bold;
 }
 
@@ -324,23 +324,6 @@ main h3 {
 
 /*         MEDIA           */
 
-@media only screen and (min-width: 650px) {
-    #search {
-        width: 180px;
-    }
-
-    #bucket span {
-        font-size: 36px;
-    }
-
-    #grid div {
-        padding: 0 40px 35px 0;
-    }
-    #logo {
-        font-size: 28pt;
-    }
-}
-
 @media only screen and (min-width: 905px) {
     #menu_icon {
         display: none;
@@ -389,7 +372,7 @@ main h3 {
 
     #motto {
         display: table;
-        padding: 0;
+        padding-left: 70px;
     }
 
     #left_motto {
@@ -408,8 +391,12 @@ main h3 {
         padding-left: 20px;
     }
 
-    #icons span {
+    #icons span, #bucket span {
         font-size: 48px;
+    }
+
+    #search {
+        padding: 16px;
     }
 
     #why {
@@ -418,42 +405,8 @@ main h3 {
 }
 
 @media only screen and (min-width: 945px) {
-    #motto {
-        padding-left: 70px;
-    }
-
-    #left_motto h2, #why h2 {
-        font-size: 24pt;
-    }
-
-    #motto img {
-        height: 350px;
-    }
-
     #grid {
         grid-template-columns: 50% 50%;
-    }
-}
-
-@media only screen and (min-width: 1070px) {
-    #motto {
-        padding-left: 100px;
-    }
-
-    #left_motto h2, #why h2 {
-        font-size: 26pt;
-    }
-
-    #motto img {
-        height: 400px;
-    }
-
-    #grid h4 {
-        font-size: 16pt;
-    }
-
-    #why {
-        padding: 30px 100px 0 100px;
     }
 }
 
@@ -486,19 +439,9 @@ main h3 {
 
     #motto img {
         display: table-cell;
-        height: 450px;
-        width: auto;
-    }
-
-    #bucket span {
-        font-size: 48px;
     }
 
     #logo {
         font-size: 32pt;
-    }
-
-    #search {
-        padding: 16px;
     }
 }
