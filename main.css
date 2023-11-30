@@ -46,8 +46,12 @@ body {
     background: var(--main-bg-color);
 }
 
+b {
+    font-weight: bold;
+}
+
 h2 {
-    font-size: 32pt;
+    font-size: 22pt;
     font-weight: bold;
 }
 
@@ -57,42 +61,98 @@ header {
     padding: 20px;
 }
 
+#left_side {
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#right_side {
+    position: absolute;
+    top: 24px; right: 20px;
+}
+
 #left_side, #left_side *, #right_side {
     user-select: none;
 }
 
+header .menu {
+    overflow: hidden;
+    clear: both;
+    max-height: 0;
+    margin: 0;
+}
+
+header ul li {
+    display: inline;
+}
+
+header button {
+    background: transparent;
+    font-weight: 600;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+.dropdown_content {
+    display: none;
+    position: relative;
+    width: 100%;
+    background: #91B339;
+}
+
+.dropdown:hover .dropdown_content {
+    display: inline-block;
+}
+
+header li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16pt;
+    width: 100%;
+}
+
+header li a:hover {
+    background: #B1D359;
+}
+
+#menu_icon {
+    cursor: pointer;
+    display: inline-block;
+    user-select: none;
+}
+
+#menu_icon span {
+    font-size: 36px;
+}
+
+#menu_btn {
+    display: none;
+}
+
+#menu_btn:checked ~ .menu {
+  max-height: 100%;
+}
+#menu_btn:checked ~ #menu_icon span {
+  background: transparent;
+}
+
 #logo {
-    font-size: 36pt;
+    font-size: 24pt;
+    display: inline-block;
     font-weight: bold;
     font-variant: small-caps;
-    display: inline-block;
     border-top: 3px solid var(--main-font-color);
     border-bottom: 3px solid var(--main-font-color);
 }
 
-header ul{
-    text-align: center;
-    margin: 0 10px;
-}
-header ul li {
-    display: inline-block;
-}
-header li a{
-    display: block;
-    padding: 5px 15px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 16pt;
-}
-header li a:hover {
-    text-decoration: underline;
-}
-
 #search {
+    display: inline-block;
     background: var(--search-color);
-    padding: 16px;
+    padding: 10px;
     border-radius: 32px;
-    width: 200px;
+    width: 150px;
 }
 
 #search input {
@@ -101,7 +161,8 @@ header li a:hover {
     background: transparent;
     color: #fff;
     padding-left: 30px;
-    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' class='bi bi-search' fill='%23A1C349' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 0 center;
+    font-size: 12pt;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' class='bi bi-search' fill='%23A1C349' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 0 center;
 }
 #search input::selection {
     background: var(--main-font-color);
@@ -112,24 +173,61 @@ header li a:hover {
 }
 #search input:focus {
     outline: none;
-    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' class='bi bi-search' fill='%23ffffff' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 0 center;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' class='bi bi-search' fill='%23ffffff' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 0 center;
+}
+
+#bucket {
+    display: inline-block;
 }
 
 #bucket span {
-    font-size: 48px;
+    font-size: 36px;
+    vertical-align: middle;
     color: var(--main-font-color);
+}
+
+#example {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+
+    margin: 20px auto;
+    justify-content: center;
+}
+#example article {line-height: 0;}
+
+#example img {
+    border: 1px solid var(--main-font-color);
+}
+
+#example h3 {
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: var(--main-font-color);
+    display: none;
+}
+
+#example a:hover {
+    filter: drop-shadow(0 0 10px #000);
+}
+
+#example a:hover h3 {
+    display: block;
 }
 
 #motto {
     width: 100%;
-    padding-left: 130px;
+    padding: 0;
     background: #fff;
     display: table;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 3px, rgba(0, 0, 0, 0.24) 0px 2px 2px, rgba(0, 0, 0, 0.12) 0px -2px 3px, rgba(0, 0, 0, 0.24) 0px -2px 2px;;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px -4px 6px -1px;
 }
 
 #left_motto {
-    display: table-cell;
+    display: block;
+    width: 100%;
+    padding: 0 15px;
 }
 
 #left_motto *::selection {
@@ -137,31 +235,33 @@ header li a:hover {
 }
 
 #motto p {
-    padding: 30px 0 25px 0;
+    padding-top: 10px;
     text-align: left;
 }
 
 #motto h2 {
-    padding: 25px 0 50px 0;
-    font-size: 32pt;
+    padding-top: 10px;
     font-weight: bold;
     text-align: left;
 
 }
 
 #motto img {
-    display: table-cell;
-    height: 450px;
-    width: auto;
-    padding-left: 20px;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+
     user-select: none;
 }
 
 #why {
-    padding: 50px 130px 0 130px;
+    padding: 20px 50px;
     width: 90%;
 }
+
 #why h2 {
+    font-size: 24pt;
     padding: 25px 0;
 }
 
@@ -172,23 +272,22 @@ header li a:hover {
 #grid {
     padding: 25px 0;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
 }
 
 #grid div {
-    padding: 0 70px 50px 0;
+    padding: 0 10px 35px 0;
 }
 
 #grid h4 {
-    font-size: 18pt;
+    font-size: 16pt;
     padding: 10px 0;
 }
 
 footer {
     width: 100%;
     max-width: 500px;
-    margin: 0 auto;
-    padding-bottom: 30px;
+    margin: 20px auto;
     user-select: none;
 }
 
@@ -205,67 +304,201 @@ footer p {
 
 #icons span {
     color: var(--main-font-color);
-    font-size: 48px;
+    font-size: 32px;
     margin: 0 10px;
 }
 
-@media only screen and (max-width: 1265px) {
+
+/*        CATEGORIES       */
+
+main {
+    width: 100%;
+    background: #fff;
+    padding: 20px 15px;
+}
+
+main h3 {
+    font-size: 22pt;
+}
+
+
+/*         MEDIA           */
+
+@media only screen and (min-width: 650px) {
+    #search {
+        width: 180px;
+    }
+
+    #bucket span {
+        font-size: 36px;
+    }
+
+    #grid div {
+        padding: 0 40px 35px 0;
+    }
+    #logo {
+        font-size: 28pt;
+    }
+}
+
+@media only screen and (min-width: 905px) {
+    #menu_icon {
+        display: none;
+    }
+
+    header .menu {
+        max-height: 100%;
+        margin: 0 10px;
+        display: inline-block;
+    }
+
+    .dropdown_content {
+        position: absolute;
+        width: auto;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    #left_side {
+        text-align: justify;
+        font-size: 0;
+        line-height: 0;
+    }
+
+    #right_side {top: 27px;}
+
+    header ul, #logo {
+        vertical-align: middle;
+        line-height: normal;
+    }
+
+    #logo {margin-top: 7px;}
+
+    header ul li {
+        display: inline-block;
+    }
+
+    #search {
+        width: 220px;
+    }
+
+    #search input {
+        font-size: 14pt;
+    }
+
+    #example h3 {font-size: 20pt;}
+
+    #motto {
+        display: table;
+        padding: 0;
+    }
+
+    #left_motto {
+        display: table-cell;
+        padding: 10px 20px;
+    }
+
+    #left_motto h2, #left_motto p{
+        padding-top: 10px;
+    }
+
+    #motto img {
+        display: table-cell;
+        height: 450px;
+        width: auto;
+        padding-left: 20px;
+    }
+
+    #icons span {
+        font-size: 48px;
+    }
+
+    #why {
+        padding: 20px 50px;
+    }
+}
+
+@media only screen and (min-width: 945px) {
+    #motto {
+        padding-left: 70px;
+    }
+
+    #left_motto h2, #why h2 {
+        font-size: 24pt;
+    }
+
+    #motto img {
+        height: 350px;
+    }
+
+    #grid {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (min-width: 1070px) {
     #motto {
         padding-left: 100px;
     }
+
     #left_motto h2, #why h2 {
         font-size: 26pt;
     }
+
     #motto img {
         height: 400px;
     }
+
     #grid h4 {
         font-size: 16pt;
     }
+
     #why {
         padding: 30px 100px 0 100px;
     }
 }
 
-@media only screen and (max-width: 1070px) {
-    #motto {
-        padding-left: 70px;
+@media only screen and (min-width: 1265px) {
+    #grid h4 {
+        font-size: 18pt;
     }
-    #left_motto h2, #why h2 {
-        font-size: 24pt;
-    }
-    #motto img {
-        height: 350px;
-    }
-    #grid {
-        grid-template-columns: 100%;
-    }
-}
-@media only screen and (max-width: 945px) {
-    #motto {
-        display: block;
-        padding: 0;
-    }
-    #left_motto {
-        width: 100%;
-        padding: 10px 20px;
-    }
-    #left_motto h2, #left_motto p{
-        padding-top: 10px;
-    }
-    #motto img {
-        display: block;
-        width: 100%;
-        height: auto;
-        padding: 0;
-    }
-    #icons span {
-        font-size: 32px;
-    }
-    #why {
-        padding: 20px 50px;
-    }
-}
-@media only screen and (max-width: 905px) {
 
+    #grid div {
+        padding: 0 70px 50px 0;
+    }
+
+    #why h2 {
+        font-size: 32pt;
+    }
+
+    #why {
+        padding: 50px 130px 0 130px;
+    }
+
+    #motto p {
+        padding: 30px 0 25px 0;
+        text-align: left;
+    }
+
+    #motto h2 {
+        padding: 25px 0 50px 0;
+        font-size: 32pt;
+    }
+
+    #motto img {
+        display: table-cell;
+        height: 450px;
+        width: auto;
+    }
+
+    #bucket span {
+        font-size: 48px;
+    }
+
+    #logo {
+        font-size: 32pt;
+    }
+
+    #search {
+        padding: 16px;
+    }
 }
