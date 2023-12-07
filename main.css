@@ -4,6 +4,10 @@
     --search-color: #61810E;
 }
 
+html {
+    min-width: 250px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -50,6 +54,10 @@ b {
     font-weight: bold;
 }
 
+small {
+    font-size: 12pt;
+}
+
 h2 {
     font-size: 24pt;
     font-weight: bold;
@@ -67,8 +75,9 @@ header {
 }
 
 #right_side {
-    position: absolute;
-    top: 24px; right: 20px;
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
 }
 
 #left_side, #left_side *, #right_side {
@@ -187,33 +196,37 @@ header li a:hover {
 }
 
 #example {
+    width: 100%;
+    background: #fff;
+    padding: 15px;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-
-    margin: 20px auto;
-    justify-content: center;
-}
-#example article {line-height: 0;}
-
-#example img {
-    border: 1px solid var(--main-font-color);
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 1fr;
+    gap: 5px;
 }
 
-#example h3 {
-    line-height: normal;
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    color: var(--main-font-color);
-    display: none;
+#example article, #content article {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
+#example h3, #content h3 {
+    font-size: 16pt;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
 
 #example a:hover {
-    filter: drop-shadow(0 0 10px #000);
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 }
 
-#example a:hover h3 {
-    display: block;
+#filler {
+    width: 100%;
+    background: var(--main-bg-color);
+    height: 100px;
 }
 
 #motto {
@@ -311,18 +324,52 @@ footer p {
 
 /*        CATEGORIES       */
 
-main {
+#content {
     width: 100%;
     background: #fff;
     padding: 20px 15px;
 }
 
-main h3 {
-    font-size: 22pt;
+#content h3 {
+    font-size: 16pt;
+}
+
+#content small a, #content small b {
+    font-size: 12pt;
+}
+
+#info label, #content p {
+    font-weight: bold;
+}
+
+#info select {
+    border: 1px solid var(--main-bg-color);
+    border-radius: 12px;
+    padding: 2px;
+}
+
+main {
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 1fr;
+    gap: 5px;
+}
+
+main a:hover {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 }
 
 
 /*         MEDIA           */
+
+@media only screen and (min-width: 450px) {
+    #right_side {
+        position: absolute;
+        top: 24px; right: 20px;
+        margin: 0;
+    }
+}
 
 @media only screen and (min-width: 905px) {
     #menu_icon {
@@ -401,6 +448,20 @@ main h3 {
 
     #why {
         padding: 20px 50px;
+    }
+
+    main {
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 20px 5px;
+    }
+
+    #example {
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        gap: 20px 5px;
+    }
+
+    #content h3, #example h3 {
+        font-size: 18pt;
     }
 }
 
