@@ -97,129 +97,89 @@
             </div>
         </header>
 
-        <div class="contact-container">
-            <div class="doprava">
-                <h2>Zvolte způsob doručení</h2>
-                <section class="main-content">
-                    <table class="delivery-table">
-                        <tbody>
-                            <tr>
-                                <td><input type="radio" name="deliveryMethod" value="method1"></td>
-                                <td>Moravian Post</td>
-                                <td>49 kč.</td>
-                            </tr>
-                            <tr>
-                                <td><input type="radio" name="deliveryMethod" value="method2"></td>
-                                <td>Vyzvednout na pobočce</td>
-                                <td>Zdarma</td>
-                            </tr>
-                            <tr>
-                                <td><input type="radio" name="deliveryMethod" value="method2"></td>
-                                <td>Bohemian Post</td>
-                                <td>49 kč.</td>
-                            </tr>
-                            <tr>
-                                <td><input type="radio" name="deliveryMethod" value="method2"></td>
-                                <td>ExFed</td>
-                                <td>69 kč.</td>
-                            </tr>
-                            <tr>
-                                <td><input type="radio" name="deliveryMethod" value="method2"></td>
-                                <td>DLH</td>
-                                <td>69 kč.</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
+        <div class="container">
+            <div class="product_info">
+                <div class="photos">
+                    <div class="main_photo"><img src="https://picsum.photos/1000" width="100%" height="100%"></div>
+                    <div class="gallery">
+                        <div><img src="https://picsum.photos/200"></div>
+                        <div><img src="https://picsum.photos/200"></div>
+                        <div><img src="https://picsum.photos/200"></div>
+                        <div><img src="https://picsum.photos/200"></div>
+                    </div>
+                </div>
+                <section class="about_product">
+                    <a href="category.html">Muži</a> / <a href="category.html"><b>Bundy a mikiny</b></a>
+                    <div class="description">
+                        <h2>Zimní bunda Avalanche</h2>
+                        <span class="product_price">3499 Kč</span>
+                        <div class="product_details">
+                            <h3>Popisek</h3>
+                            <p>Zimní bunda Avalanche je ideální pro udržení tepla během nejchladnějších měsíců. Díky stylovému designu a příjemnému zateplení budete připraveni vypořádat se se zimním chladem. Nedovolte, aby vás chladné počasí zdržovalo - tato bunda vás ochrání.</p>
+                        </div>
+                        <div class="size_container">
+                            <h3>Velikost</h3>
+                            <div class="sizes_list">
+                                <input type="radio" name="size" value="S" id="s">
+                                <label for="s">S</label>
 
-            <div class="platba">
-                <h2>Zvolte platbu</h2>
-                <section class="main-content">
-                    <table class="delivery-table">
-                        <tbody>
-                            <tr>
-                                <td><input type="radio" name="paymentMethod" value="method1"></td>
-                                <td>Kartou online</td>
-                                <td>Zdarma</td>
-                            </tr>
-                            <tr>
-                                <td><input type="radio" name="paymentMethod" value="method2"></td>
-                                <td>Kartou při vyzvednutí</td>
-                                <td>Zdarma</td>
-                            </tr>
-                            <tr>
-                                <td><input type="radio" name="paymentMethod" value="method2"></td>
-                                <td>Hotově při vyzvednutí</td>
-                                <td>Zdarma</td>
-                            </tr>
-                            <tr>
-                                <td><input type="radio" name="paymentMethod" value="method2"></td>
-                                <td>Google Pay</td>
-                                <td>Zdarma</td>
-                            </tr>
-                            <tr>
-                                <td><input type="radio" name="paymentMethod" value="method2"></td>
-                                <td>PayPal</td>
-                                <td>Zdarma</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
+                                <input type="radio" name="size" value="M" id="m">
+                                <label for="m">M</label>
 
-            <section class="contact-column-1">
-                <h2>Shipping</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="shipping-name">Jmeno a příjmení</label>
-                        <input type="text" id="shipping-name" name="shipping-name" required>
+                                <input type="radio" name="size" value="L" id="l">
+                                <label for="l">L</label>
+                            </div>
+                        </div>
+                        <section class="specification">
+                            <h3>Specifika</h3>
+                            <ul>
+                                <li><b>Délka rukávu:</b> Dlouhý rukáv</li>
+                                <li><b>Délka:</b> Dlouhý střih</li>
+                                <li><b>Střih:</b> Normální střih</li>
+                            </ul>
+                        </section>
+                        <div class="splitter"></div>
+                        <button class="to-cart">Přidat do košíku</button>
                     </div>
-                    <div class="form-group">
-                        <label for="shipping-address">Adresa</label>
-                        <input type="text" id="shipping-address" name="shipping-address" required>
+                </div>
+            </section>
+            <section class="review">
+                <h2>Hodnocení</h2>
+                <div class="assessment">
+                    <div class="assessment_header">
+                        <h3>Jan Novák</h3>
+                        <small><b>2023-11-03</b></small>
                     </div>
-                    <div class="form-group">
-                        <label for="shipping-address">Město</label>
-                        <input type="text" id="shipping-address" name="shipping-address" required>
+                    <div class="score">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
                     </div>
-                    <div class="form-group">
-                        <label for="shipping-address">PSČ</label>
-                        <input type="text" id="shipping-address" name="shipping-address" required>
-                    </div>
-                </form>
+                    <p>Tato bunda je moje záchrana v zimních měsících! Je teplá, stylová a stojí za každou korunu!</p>
+                </div>
             </section>
 
-            <section class="contact-column-2">
-                <h2>Payment</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="payment-name">Jmeno</label>
-                        <input type="text" id="payment-name" name="payment-name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="payment-card">Číslo karty</label>
-                        <input type="text" id="payment-card" name="payment-card" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="payment-card">CVC</label>
-                        <input type="text" id="payment-card" name="payment-card" required>
-                    </div>
-                    <div class="form-group-mini">
-                        <div class="form-group-mini2">
-                            <label for="additional-field2">Rok</label>
-                            <input type="text" id="additional-field2" name="additional-field2" required>
-                        </div>
-                        <div class="form-group-mini2">
-                            <label for="additional-field2">Měsíc</label>
-                            <input type="text" id="additional-field2" name="additional-field2" required>
-                        </div>
-                    </div>
-                </form>
+            <section class="similar_products">
+                <h2>Podobné produkty</h2>
+                <div class="similar_list">
+                    <a href="product.html" class="similar_product"><article>
+                        <img src="https://picsum.photos/200">
+                        <b>Bunda</b>
+                    </article></a>
+
+                    <a href="product.html" class="similar_product"><article>
+                        <img src="https://picsum.photos/200">
+                        <b>Kalhoty</b>
+                    </article></a>
+
+                    <a href="product.html" class="similar_product"><article>
+                        <img src="https://picsum.photos/200">
+                        <b>Triko</b>
+                    </article></a>
+                </div>
             </section>
-            <div class="button">
-                <button class="finish-order">Finish Order</button>
-            </div>
         </div>
 
         <footer>
