@@ -98,7 +98,7 @@
         </header>
 
         <div class="cart-container">
-            <h2>My cart</h2>
+            <h2>Košík</h2>
             <div class="cart">
                 <table class="shopping-cart">
                     <tr class="cart-header">
@@ -110,45 +110,45 @@
                         <td class="product"><img src="https://picsum.photos/200/300/" width="100%" height="auto"></td>
                         <td class="description">Zimní bunda Avalanche</td>
                         <td class="size-quantity-price">
-                            <div class="size">M</div>
+                            <div class="size"><b>M</b></div>
                             <div class="quantity">
-                                <button class="cart-button-minus">-</button>
-                                <div class="quantity-cart">1</div>
-                                <button class="cart-button-plus">+</button>
+                                <button class="cart-button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">-</button>
+                                <input type="number" class="product-quantity" name="number" value="2">
+                                <button class="cart-button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">+</button>
                             </div>
-                            <div class="price">$19.00</div>
+                            <div class="price">3499 Kč</div>
                         </td>
                     </tr>
                     <tr>
                         <td class="product"><img src="https://picsum.photos/200/300/" width="100%" height="auto"></td>
                         <td class="description">Triko Summer Breeze</td>
                         <td class="size-quantity-price">
-                            <div class="size">M</div>
+                            <div class="size"><b>M</b></div>
                             <div class="quantity">
-                                <button class="cart-button-minus">-</button>
-                                <div class="quantity-cart">1</div>
-                                <button class="cart-button-plus">+</button>
+                                <button class="cart-button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">-</button>
+                                <input type="number" class="product-quantity" name="number" value="1">
+                                <button class="cart-button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">+</button>
                             </div>
-                            <div class="price">$29.00</div>
+                            <div class="price">599 Kč</div>
                         </td>
                     </tr>
                     <tr>
                         <td class="product"><img src="https://picsum.photos/200/300/" width="100%" height="auto"></td>
                         <td class="description">Džíny Classic</td>
                         <td class="size-quantity-price">
-                            <div class="size">S</div>
+                            <div class="size"><b>S</b></div>
                             <div class="quantity">
-                                <button class="cart-button-minus">-</button>
-                                <div class="quantity-cart">1</div>
-                                <button class="cart-button-plus">+</button>
+                                <button class="cart-button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">-</button>
+                                <input type="number" class="product-quantity" name="number" value="1">
+                                <button class="cart-button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">+</button>
                             </div>
-                            <div class="price">$39.00</div>
+                            <div class="price">1399 Kč</div>
                         </td>
                     </tr>
                     <tr>
                         <td></td>
                         <td colspan="2" class="total-cart">
-                            <div class="total">Celkem: 87$</div>
+                            <div class="total">Celkem: 5497 Kč</div>
                         </td>
                     </tr>
                 </table>
