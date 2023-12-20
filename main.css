@@ -257,7 +257,7 @@ img {
     padding: 0 15px;
 }
 
-#left_motto *::selection {
+#left_motto *::selection, #example *::selection {
     background: var(--main-bg-color);
 }
 
@@ -633,24 +633,19 @@ main p {
     margin-bottom: 3%;
 }
 
-.cart-button-minus {
+.cart-button {
     padding: 3px 13px;
     font-size: 24px;
-    background-color: #B1D359;
+    background-color: var(--main-bg-color);
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 30%;
+    border-radius: 4px;
+    border: 1px solid var(--main-font-color);
 }
 
-.cart-button-plus {
-    padding: 3px 11px;
-    font-size: 24px;
-    background-color: #B1D359;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 30%;
+.cart-button:hover {
+    background-color: var(--main-accent-color);
 }
 
 .quantity {
@@ -664,9 +659,17 @@ main p {
     justify-content: center;
 }
 
-.quantity-cart {
-    padding-left: 10px;
-    padding-right: 10px;
+.product-quantity {
+    width: 30px;
+    padding: 4px;
+    text-align: center;
+}
+.product-quantity::-webkit-outer-spin-button,
+.product-quantity::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
 
 .shopping-cart tr:last-child {
@@ -682,7 +685,7 @@ main p {
     justify-content: flex-end;
     width: 100%;
     white-space: nowrap;
-    margin-left: 100%;
+    margin-left: 95%;
     max-width: 110px;
 }
 
@@ -729,7 +732,6 @@ main p {
     padding-left: 0%;
     padding-right: 0%;
     padding-top: 40px;
-    /* padding-bottom: 80px; */
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -737,7 +739,6 @@ main p {
 .contact-column-1 {
     width: 40%;
     order: 1;
-    /*font-family: "Trebuchet MS";*/
     max-width: 500px;
     min-width: 300px;
     margin-bottom: 2%;
@@ -906,6 +907,52 @@ main p {
 .platba h2 {
     font-size: 150%;
     margin-bottom: 2%;
+}
+
+
+/*        FINISH            */
+
+.finish_order {
+    padding: 80px 0;
+}
+.finish_order h2, h3 {
+    margin: 10px 0;
+}
+
+.finish_order p {
+    margin: 30px 0 10px 0
+}
+
+
+/*        SEARH            */
+
+.search-tips ul li {
+    font-size: 14pt;
+    margin-top: 12pt;
+}
+
+.search-tips ul li p {
+    margin-left: 10px;
+}
+
+.search-tips ul {
+    margin-bottom: 20%;
+}
+
+.search-tips {
+    margin-left: 10px;
+}
+
+.search-result {
+    padding: 80px 0;
+    margin-right: 7%;
+}
+.search-result h3 {
+    margin: 10px 0;
+}
+
+.search-result p {
+    margin: 30px 0 10px 0
 }
 
 
